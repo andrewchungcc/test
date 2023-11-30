@@ -1,0 +1,104 @@
+body {
+    background-image: url("./image/background2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.up{
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    width: 1280px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logo {
+    width: 250px;
+    height: auto;
+}
+  
+.up_right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: auto; /* 将右侧部分推到右侧 */
+}
+  
+.pageicon-container {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+  
+.pageicon {
+    width: 40px;
+    height: auto;
+    margin-left: 10px;
+}
+
+
+.container{
+    margin: 0 auto;
+    width: 1400px;
+    height: 750px;
+    position: relative;
+    top: 30px;
+    overflow: hidden;   
+    display: grid;
+
+   
+}
+
+.story {
+    
+    padding-left: 125px;
+    /* 添加過渡效果 */
+    /* transition: margin-left 0.5s;  */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    overflow: hidden;
+    gap: 200px;
+}
+
+
+
+/* .changepage_container{
+    display: flex;
+    align-items: center;
+}
+
+.changepage{ 
+    position: relative; 
+    left:700px;
+}  */
+
+
+.changepage_container {
+    position: absolute;
+    top: 75%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+}
+
+
+.changepage { 
+    width: 60px;
+    height: auto;
+    margin-right: 80px;
+    margin-left: 130px;
+    cursor: pointer;
+}
+
+/* 
+.page:nth-child(even) {
+    background-color: #f9f9f9;
+} */

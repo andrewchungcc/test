@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="story.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="story.js"></script>
+    <title>吵架的松鼠</title>
+</head>
+
+<body>
+    <div class="up">
+        <a href="./homepage_before_login.html">
+        <img src="./image/Logo_2.png" class="logo">
+        </a>
+
+        <div class="up_right">
+            <div class="pageicon-container">
+                <a href="./homepage.html"><img src="./image/homepage.png" class="pageicon"></a>
+                <a><img src="./image/tofavorie.png" class="pageicon"></a>
+                <a href="./introduction.html"><img src="./image/exist.png" class="pageicon"></a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class = "story">
+            <div class="page"><img src="./story1/story1.png"  width="1200" height="750"> </div>
+            <div class="page"><img src="./story1/story2.png"  width="1200" height="750"> </div>
+            <div class="page"><img src="./story1/story1.png"  width="1200" height="750"> </div>
+            <div class="page"><img src="./story1/story2.png"  width="1200" height="750"> </div>
+            <div class="page"><img src="./story1/story1.png"  width="1200" height="750"> </div>
+        </div>    
+    </div>
+
+    <div class="changepage_container">
+        <img src="./image/lastpage.png"  class="changepage", id="prev-btn">
+        <img src="./image/nextpage.png" class="changepage" id="next-btn">  
+    </div>
+<script>
+    $(document).on("mobileinit", function () {
+        $.mobile.autoInitializePage = false;
+    });
+</script>
+</body>
+</html>

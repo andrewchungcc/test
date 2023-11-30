@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <title>Log in</title>
+    
+    <!-- 加入js -->
+    <script type='text/javascript' defer src='./Login.js'></script>
+
+    <!-- Include SweetAlert2 CSS and JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.2/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.1.2/dist/sweetalert2.all.min.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.0/axios.min.js"
+      integrity="sha512-aoTNnqZcT8B4AmeCFmiSnDlc4Nj/KPaZyB5G7JnOnUEkdNpCZs1LCankiYi01sLTyWy+m2P+W4XM+BuQ3Q4/Dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- 加入Css格式 -->
+    <link rel = "stylesheet" href = "Login.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+    <!--最佳化螢幕寬度-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+</head>
+<body>
+  <div class="up">
+    
+    <a href="./homepage_before_login.html">
+    <img src="./image/Logo_1.png">
+    <img src="./image/homepage.png" class="pageicon">
+    </a>
+    <img src="./image/list.png" class="pageicon">
+  </div>
+
+<div class="container">   
+  <!-- <p class = "head">Login</p> -->
+
+  <div class = "loginBox">
+    <p class = "head">Log in</p>
+    <p> Email </p>
+    <label class="user">
+    <input type="text" id="id" placeholder="">
+    </label>
+    
+    <p> Password </p>
+    <label class="lock">
+    <input type="password" id="password" placeholder="">
+    </label>
+
+    <br><br>
+    <button id="LoginButton" >Log in</button>
+
+    <a href="./Signup.html">
+    <button id="SignButton" > Sign up</button>
+    </a>
+
+    <br><br>
+
+    
+    
+  </div>
+  <!-- <a href = "./Signup.html" style = text-align:center;> sign up </a> -->
+  <!-- <br> -->
+  <!-- <a href style = text-align:center > contact us </a> -->
+
+  
+</div>
+
+
+
+</body>
+</html>

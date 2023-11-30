@@ -1,0 +1,117 @@
+
+body {
+  font-family: Bookman, URW Bookman L, serif;
+  color:#003C9D;
+  background-image: url("./image/background2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+li {
+  display: grid;
+  grid-template-columns: 40% 55%;
+  align-items: center;
+  justify-content: space-between;
+  height: 300px;
+  width: 600px;
+}
+
+.up{
+  margin: 0 auto;
+  position: relative;
+  top: 80px;
+  width: 1250px;
+  height: 120px;
+}
+
+.pageicon{
+  width:"40"; 
+  height:"40";
+  position: relative;
+  left: 600px;
+  bottom: 60px;
+}
+
+.search {
+  position: relative;
+  bottom: 30px;
+  right: 10px;
+}
+
+.search:before {
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900; 
+  content: "\f002";
+  font-size: 22px;
+  position: relative;
+  left: 25pt;
+  top: 3pt;
+  /* transform: translateY(-50%);  */
+}
+
+input[type="text"] {
+  /* position: relative; */
+  width: 300px;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+  padding: 10px;
+  border : solid .1px black;
+  border-radius: 20px;
+  background-color :  #fff;
+  }
+
+.content {
+  background-color: white;
+  margin: 0 auto;
+  padding: 5px 20px;
+  max-width: 80%;
+  max-width: 1250px;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 100px;
+  margin-bottom: 25px;
+}
+
+
+h2 {
+  font-size: 30px;
+  /* color: #6495ED; */
+}
+
+
+.text-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.favorite-book {
+  flex: 0 0 40%; /* 调整图片所占的宽度，这里占 40% */
+}
+
+.text-box {
+  flex: 0 0 55%; /* 调整文字和按钮所占的宽度，这里占 55% */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.text-box p {
+  margin-bottom: 10px; /* 添加一些底部边距，使按钮不会紧贴文字 */
+}
+
+.favorite-book img {
+  max-width: 100%;
+  height:auto;
+}
+
+.read-btn, .delete-btn {
+  margin-top: 10px; 
+  margin-right: 5px; 
+  display: inline-block;
+}
+
